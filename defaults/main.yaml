@@ -17,9 +17,9 @@ bindep_git_dest: /opt/ansible-role-bindep/git/openstack-infra/bindep
 bindep_git_uri: https://git.openstack.org/openstack-infra/bindep
 bindep_git_version: master
 
-bindep_install_method: git
+bindep_install_method: pip
 
 bindep_pip_name: bindep
 # bindep_pip_extra_args:
 # bindep_pip_version:
-# bindep_pip_virtualenv:
+bindep_pip_virtualenv: /tmp/test
