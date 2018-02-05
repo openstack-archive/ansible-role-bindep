@@ -1,0 +1,6 @@
+- project:
+    check:
+      jobs:
+        - ansible-role-functional-ubuntu-xenial
+        - ansible-role-functional-centos-7
+        - ansible-role-functional-fedora-26
