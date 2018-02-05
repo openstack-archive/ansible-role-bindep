@@ -1,0 +1,4 @@
+- project:
+    check:
+      jobs:
+        - ansible-role-functional-ubuntu-xenial
