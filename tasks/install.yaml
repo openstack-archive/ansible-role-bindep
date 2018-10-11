@@ -24,4 +24,4 @@
   with_items: "{{ bindep_build_depends }}"
   when: bindep_install_method == 'git' or bindep_install_method == 'pip'
 
-- include: "install/{{ bindep_install_method }}.yaml"
+- include_tasks: "install/{{ bindep_install_method }}.yaml"
